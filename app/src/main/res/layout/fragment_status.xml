@@ -1,0 +1,12 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Aquí puedes agregar tus vistas para mostrar la lista de statuses -->
+    <!-- ... -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/status_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
+</RelativeLayout>
